@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2 class="row1">
+        To-Do List Web App
+    </h2>
+
+    <div class="container">
+
+        <div class="row2">
+
+            <div class="list">
+                <h2 style="text-align: center;">Make Your list</h2>
+                <input type="text" placeholder="Title" id="box-1">
+                <input type="button" onclick="add_item()" value="ADD">
+            </div>
+
+        </div>
+
+        <div class="row3">
+            <div class="heading">
+                <p>Title</p>
+                <p>Delete</p>
+            </div>
+            <hr class="hl">
+            <ul id="myUL">
+
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
